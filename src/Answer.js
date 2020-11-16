@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 
-// If you are confused about any of this code, go to https://www.youtube.com/watch?v=XLJN4JfniH4 for an explinaion
-
 const MyContext = React.createContext();
 class MyProvider extends Component {
   state = {
@@ -37,8 +35,7 @@ class Person extends Component {
           {(context) => (
             <React.Fragment>
               <li>
-                {context.state.name} - {context.state.age} -{" "}
-                {context.state.role}
+                {context.state.name} - {context.state.age} - {context.state.role}
               </li>
               <button onClick={context.increaseAge}>Increase Age</button>
             </React.Fragment>
