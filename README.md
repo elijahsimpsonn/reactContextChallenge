@@ -8,4 +8,6 @@
 
 <p>HINTS - Remember that we need to use React.createContext() and use .Provider to provide the data from the context and .Consumer to use the data from it.</p>
 
-<p>If you get stuck, the Answer.js file provides not only the answer but a link to a YouTube video to explain what everything does.</p>
+<p>If you get stuck, check out https://www.youtube.com/watch?v=XLJN4JfniH4 or go to the Answer.js file for the solution.</p>
+
+
